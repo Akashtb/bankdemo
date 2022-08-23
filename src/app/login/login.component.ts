@@ -30,10 +30,31 @@ export class LoginComponent implements OnInit {
   pswChange(event:any){
     this.pswd=event.target.value
   }
-  login(){
+  // login(){
+  //   // fetch accnovar 
+  //   var accno = this.accno 
+  //   var pswd =this.pswd
+    
+  //   let userdetails = this.database
+  //   if(accno in userdetails){
+  //     if (pswd == userdetails[accno]['password']) {
+  //       alert('login successsful')
+  //     }
+  //     else{
+  //       alert('incorrect password')
+  //     }
+  //   }
+  //   else{
+  //     alert('user does not exist')
+  //   }
+  // }
+  login(a:any,p:any){
+    console.log(a);
+    console.log(p);
+    
     // fetch accnovar 
-    var accno = this.accno 
-    var pswd =this.pswd
+    var accno = a.value
+    var pswd = p.value
     
     let userdetails = this.database
     if(accno in userdetails){

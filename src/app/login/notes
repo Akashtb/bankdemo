@@ -29,5 +29,6 @@
 
         3.1.2.1 event binding -(event-name)="function-call"
 
-        3.1.2.1 event binding using $event - (event name)="function - call($event)"
+        3.1.2.2 event binding using $event - (event name)="function - call($event)"
         
+        3.1.2.3 Templete Reference variable:syntax:#variable-name
